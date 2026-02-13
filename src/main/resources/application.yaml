@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: processly-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/processly
+    username: postgres
+    password: totoralillo
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
